@@ -1,0 +1,54 @@
+.sliderContainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.sliderSection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+}
+
+.activeSection {
+  opacity: 1;
+}
+
+.sliderControls {
+  position: absolute;
+  top: 75%; 
+  left: 9.5%;
+  transform: translateY(-50%);
+  display: flex; 
+}
+
+.sliderControls button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; 
+}
+
+.sliderControls button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.sliderControls button svg {
+  width: 60px; 
+  height: 60px; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,58 @@
+.page1Container {
+    height: 100vh;
+    display: flex;
+    background-image: url('../Public/page1-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .page1TextContainer {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-align: left;
+    opacity: 1;
+  }
+  
+  .animateSlideIn {
+    animation: slideIn 2s forwards;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .page1Title {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 6px;
+    opacity: 0;
+  }
+  
+  .page1Beanpole {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 6px;
+    opacity: 0;
+  }
+  
+  .page1Subtitle {
+    font-size: 18px;
+    margin-top: 10px;
+    opacity: 0;
+  }
+  

@@ -1,0 +1,51 @@
+.page3Container {
+    height: 100vh;
+    display: flex;
+    background-image: url('../Public/page3.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: relative;
+    color: black;
+    overflow: hidden; 
+  }
+
+  
+.page3TextContainer {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  transform: translateY(-50%);
+  text-align: left; 
+  opacity: 1; 
+}
+  
+.page3Title {
+  font-size: 50px;
+  letter-spacing: 6px; 
+}
+
+.page3Subtitle {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.page3Category {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.page3CateList{
+  margin-right: 40px;
+  position: relative;
+  cursor: pointer;
+}
+.page3CateList::after {
+  content: '|';
+  position: absolute;
+  right: -20px; 
+}
+
+.page3CateList:last-child::after {
+  content: '';
+}

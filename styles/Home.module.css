@@ -1,0 +1,32 @@
+.container {
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'LeferiBaseType-RegularA';
+}
+
+.section {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+.activeSection {
+  opacity: 1;
+}
+
+@font-face {
+  font-family: 'SUIT-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeferiBaseType-RegularA';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiBaseType-RegularA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

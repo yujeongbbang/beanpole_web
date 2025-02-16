@@ -1,0 +1,50 @@
+.page5Container {
+    height: 100vh;
+    display: flex;
+    background-image: url('../Public/page5.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: relative;
+    color: white;
+    overflow: hidden; 
+  }
+   
+.page5TextContainer {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  transform: translateY(-50%);
+  text-align: left; 
+  opacity: 1; 
+}
+  
+.page5Title {
+  font-size: 50px;
+  letter-spacing: 6px; 
+}
+
+.page5Subtitle {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.page5Category {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.page5CateList{
+  margin-right: 40px;
+  position: relative;
+  cursor: pointer;
+}
+.page5CateList::after {
+  content: '|';
+  position: absolute;
+  right: -20px; 
+}
+
+.page5CateList:last-child::after {
+  content: '';
+}
