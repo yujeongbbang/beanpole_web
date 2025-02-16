@@ -1,6 +1,8 @@
 # **BEANPOLE 웹사이트 (Next.js)**
 🔗 **Deployment URL**: [BEANPOLE Website](https://beanpole-website.vercel.app/)
 
+![image](https://github.com/user-attachments/assets/12ad11f0-277e-4634-a90f-ab3821439b30)
+
 ## 📌 **프로젝트 개요**
 이 프로젝트는 Next.js와 TypeScript를 학습하고, 실제 웹사이트 제작 경험을 쌓기 위해 제작되었습니다.  
 기존 React 프로젝트에서 벗어나 Next.js의 서버 사이드 렌더링(SSR)과 정적 사이트 생성(SSG)의 장점을 활용하는 것이 주요 목표였습니다.  
