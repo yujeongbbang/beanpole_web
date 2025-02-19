@@ -1,7 +1,8 @@
 # **BEANPOLE 웹사이트 (Next.js)**
 🔗 **Deployment URL**: [BEANPOLE Website](https://beanpole-website.vercel.app/)
 
-![image](https://github.com/user-attachments/assets/12ad11f0-277e-4634-a90f-ab3821439b30)
+![beanpole_home3](https://github.com/user-attachments/assets/7fe2d5ac-a455-4392-996d-3f63b330a481)
+
 
 ## 📌 **프로젝트 개요**
 이 프로젝트는 Next.js와 TypeScript를 학습하고, 실제 웹사이트 제작 경험을 쌓기 위해 제작되었습니다.  
